@@ -1,6 +1,7 @@
 body {
   background-color: #E5C2C0;
   
+  
 }
 
 h2 {
@@ -19,11 +20,54 @@ h2:hover {
   font-variant: small-caps;
 }
 
-img {
+.image1 {
   width: 20%;
   border-radius: 50%;
 }
-img:hover {
+.image1:hover {
   transform: scaleX(-1);
   border: #EFE9F4 dotted 8px;
+}
+
+.image2 {
+  width: 20%;
+
+}
+
+h3 {
+  font-size: 50px;
+  display: inline-block
+ 
+}
+
+ul {
+  list-style-type: none;
+  background-color: #733b73;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: fixed;
+  padding: 10px;
+  opacity: .8;
+  margin: 0;
+  text-align: center;
+}
+
+li{
+  display: inline; 
+  padding: 10px
+  
+}
+
+a {
+  text-decoration: underline;
+  color: #E5C2C0;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+li a:hover {
+  background-color: #9FFCDF;
+  opacity: 1;
+  padding: 10px;
 }
